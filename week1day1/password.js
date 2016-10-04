@@ -4,7 +4,7 @@ function obfuscate (str)
 {
 	var newpass = "";
 
-	for (i = 0; i < str.length; i++)
+	for (var i = 0; i < str.length; i++)
 	{
 		switch(str.charAt(i))
 		{
